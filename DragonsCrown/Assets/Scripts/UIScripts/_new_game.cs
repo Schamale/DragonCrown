@@ -31,6 +31,6 @@ public class _new_game : MonoBehaviour {
     IEnumerator DelaySound()
     {
         yield return new WaitForSeconds(6);
-        SceneManager.LoadScene("Level_00");
+        SceneManager.LoadScene("DemoScene");
     }
 }
